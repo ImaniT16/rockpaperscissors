@@ -3,7 +3,11 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
-/* global $ */
+$("#shoot").click(function() {
+  $("#message").text($("#input").val());
+});
+
+
 
 
 
